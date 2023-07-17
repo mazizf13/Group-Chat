@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DepositoBPR Dashboard</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-logo">
+        <img src="logo.png" alt="Logo" />
+        <h1>DepositoBPR</h1>
+      </div>
+
+      <div class="navbar-menu" id="navbarMenu">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="#">Depositoku</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="chat.html">Group Chat</a></li>
+          <li><a href="#">Profil</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dashboard">
+      <div class="sidebar">
+        <div class="filter-container">
+          <label for="bpr">Nama BPR</label>
+          <input type="text" id="bpr" placeholder="Nama BPR" />
+        </div>
+
+        <div class="filter-container">
+          <label for="provinsi">Provinsi</label>
+          <input type="text" id="provinsi" placeholder="Provinsi" />
+        </div>
+
+        <div class="filter-container">
+          <label for="kota">Kota</label>
+          <input type="text" id="kota" placeholder="Kota" />
+        </div>
+
+        <div class="filter-container">
+          <label for="tenor">Tenor</label>
+          <input type="text" id="tenor" placeholder="Tenor" />
+        </div>
+
+        <div class="filter-container">
+          <label for="suku-bunga">Suku Bunga</label>
+          <input type="text" id="suku-bunga" placeholder="Suku Bunga" />
+        </div>
+
+        <div class="filter-container">
+          <label for="jenis-bpr">Jenis BPR</label>
+          <select id="jenis-bpr">
+            <option value="">Pilih Jenis BPR</option>
+            <option value="1">BPR Konvensional</option>
+            <option value="2">BPR Syariah</option>
+          </select>
+        </div>
+
+        <div class="filter-container">
+          <button type="reset">Reset</button>
+          <button type="button">Terapkan</button>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="section">
+          <h2 class="section-title">Deposito yang Bisa Diinvestasikan</h2>
+          <div class="deposito-item">
+            <h3>Deposito A</h3>
+            <p>Deskripsi Deposito A</p>
+          </div>
+          <div class="deposito-item">
+            <h3>Deposito B</h3>
+            <p>Deskripsi Deposito B</p>
+          </div>
+          <div class="deposito-item">
+            <h3>Deposito C</h3>
+            <p>Deskripsi Deposito C</p>
+          </div>
+          <div class="deposito-item">
+            <h3>Deposito D</h3>
+            <p>Deskripsi Deposito D</p>
+          </div>
+          <div class="deposito-item">
+            <h3>Deposito E</h3>
+            <p>Deskripsi Deposito E</p>
+          </div>
+          <div class="deposito-item">
+            <h3>Deposito F</h3>
+            <p>Deskripsi Deposito F</p>
+          </div>
+          <div class="deposito-item">
+            <h3>Deposito G</h3>
+            <p>Deskripsi Deposito G/p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
